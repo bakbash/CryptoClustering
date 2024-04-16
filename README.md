@@ -7,7 +7,7 @@ This project applies machine learning techniques to cluster cryptocurrencies bas
 ## Data Preparation
 
 ### Steps
-1- Normalize Data: Utilize StandardScaler() from scikit-learn to scale features for uniformity.
+1- Normalize Data: Utilize StandardScaler() from scikit-learn to scale features for uniformity
 2- DataFrame Creation: Construct a DataFrame with scaled data and set coin_id as the index.
 
 ## Dataset Details
@@ -25,16 +25,16 @@ This project applies machine learning techniques to cluster cryptocurrencies bas
 
 ## K-means Clustering on Scaled Data
 
-1- Initialization: Configure K-means with the optimal k value.
-2- Model Fitting: Apply the K-means model on the original scaled DataFrame.
-3- Prediction: Classify cryptocurrencies and append predictions to the data.
+1- Initialization: Configure K-means with the optimal k value
+2- Model Fitting: Apply the K-means model on the original scaled DataFrame
+3- Prediction: Classify cryptocurrencies and append predictions to the data
 4- Visualization: Create scatter plots with hvPlot to illustrate clusters with dimensions PC1 vs PC2.
 
 
 ## PCA Optimization
 
-1- Apply PCA: Reduce feature dimensions to three principal components.
-2- Variance: Analyze the explained variance to assess information retention.
+1- Apply PCA: Reduce feature dimensions to three principal components
+2- Variance: Analyze the explained variance to assess information retention
 3- DataFrame Creation: Generate a new DataFrame with PCA results, maintaining coin_id as the index.
 
 ## K-means on PCA Data
